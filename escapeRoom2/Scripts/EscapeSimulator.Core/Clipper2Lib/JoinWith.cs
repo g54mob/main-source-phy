@@ -1,0 +1,9 @@
+namespace Clipper2Lib
+{
+	internal enum JoinWith
+	{
+		None = 0,
+		Left = 1,
+		Right = 2
+	}
+}

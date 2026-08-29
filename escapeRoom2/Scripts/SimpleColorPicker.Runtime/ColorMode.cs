@@ -1,0 +1,5 @@
+public enum ColorMode
+{
+	Rgb = 0,
+	Hsv = 1
+}

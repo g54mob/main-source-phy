@@ -1,0 +1,21 @@
+using System.Diagnostics;
+using System.Reflection;
+using System.Runtime.CompilerServices;
+using System.Security;
+using System.Security.Permissions;
+
+[assembly: InternalsVisibleTo("Oculus.VR.Scripts.Editor")]
+[assembly: InternalsVisibleTo("Oculus.VR.Editor")]
+[assembly: InternalsVisibleTo("com.meta.photo3d")]
+[assembly: InternalsVisibleTo("com.meta.photo3d.generator")]
+[assembly: InternalsVisibleTo("Oculus.Interaction.OVR.Editor")]
+[assembly: InternalsVisibleTo("Oculus.Interaction.OVR")]
+[assembly: InternalsVisibleTo("Meta.XR.BuildingBlocks")]
+[assembly: InternalsVisibleTo("Meta.XR.BuildingBlocks.Editor")]
+[assembly: InternalsVisibleTo("Meta.XR.MRUtilityKit")]
+[assembly: InternalsVisibleTo("MetaXrSimulator.Editor")]
+[assembly: InternalsVisibleTo("Meta.XR.Guides.Editor")]
+[assembly: InternalsVisibleTo("Meta.XR.ImmersiveDebugger")]
+[assembly: InternalsVisibleTo("Meta.XR.ImmersiveDebugger.Editor")]
+[assembly: InternalsVisibleTo("Meta.XR.Editor.UserInterface")]
+[assembly: AssemblyVersion("0.0.0.0")]
