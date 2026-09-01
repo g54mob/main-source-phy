@@ -1,0 +1,28 @@
+using UnityEngine;
+
+namespace Kamgam.SettingsGenerator
+{
+	[CreateAssetMenu(fileName = "MasterAudioPlaylistVolumeConnection", menuName = "SettingsGenerator/Connection/MasterAudio/PlaylistVolumeConnection", order = 4)]
+	public class MasterAudioPlaylistVolumeConnectionSO : FloatConnectionSO
+	{
+		public string PlaylistName;
+
+		[Tooltip("How the input should be mapped to 0f..1f.\nUseful if you have a range in percent (from 0 to 100) but need output ranging from 0f to 1f.")]
+		public Vector2 InputRange;
+
+		protected MasterAudioPlaylistVolumeConnection _connection;
+
+		public override IConnection<float> GetConnection()
+		{
+			return null;
+		}
+
+		public void Create()
+		{
+		}
+
+		public override void DestroyConnection()
+		{
+		}
+	}
+}

@@ -1,0 +1,43 @@
+namespace Shapes
+{
+	public enum TextAlign
+	{
+		TopLeft = 0,
+		Top = 1,
+		TopRight = 2,
+		Left = 3,
+		Center = 4,
+		Right = 5,
+		BottomLeft = 6,
+		Bottom = 7,
+		BottomRight = 8,
+		TopJustified = 9,
+		TopFlush = 10,
+		TopGeoAligned = 11,
+		Justified = 12,
+		Flush = 13,
+		CenterGeoAligned = 14,
+		BottomJustified = 15,
+		BottomFlush = 16,
+		BottomGeoAligned = 17,
+		BaselineLeft = 18,
+		Baseline = 19,
+		BaselineRight = 20,
+		BaselineJustified = 21,
+		BaselineFlush = 22,
+		BaselineGeoAligned = 23,
+		MidlineLeft = 24,
+		Midline = 25,
+		MidlineRight = 26,
+		MidlineJustified = 27,
+		MidlineFlush = 28,
+		MidlineGeoAligned = 29,
+		CaplineLeft = 30,
+		Capline = 31,
+		CaplineRight = 32,
+		CaplineJustified = 33,
+		CaplineFlush = 34,
+		CaplineGeoAligned = 35,
+		Converted = 36
+	}
+}
