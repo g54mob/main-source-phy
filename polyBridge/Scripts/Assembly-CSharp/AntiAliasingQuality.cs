@@ -1,0 +1,8 @@
+public enum AntiAliasingQuality
+{
+	EXTREME_PERFORMANCE = 0,
+	PERFORMANCE = 1,
+	DEFAULT = 2,
+	QUALITY = 3,
+	EXTREME_QUALITY = 4
+}

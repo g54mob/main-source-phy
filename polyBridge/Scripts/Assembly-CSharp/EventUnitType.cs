@@ -1,0 +1,8 @@
+public enum EventUnitType
+{
+	NONE = 0,
+	HYDRAULICS_PHASE = 1,
+	VEHICLE = 2,
+	VEHICLE_RESTART_PHASE = 3,
+	ZED_AXIS_VEHICLE = 4
+}

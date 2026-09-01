@@ -1,0 +1,12 @@
+public enum VehicleSyncPart
+{
+	CHASSIS = 0,
+	WHEELS_BEGIN = 1,
+	WHEEL_FRONT = 1,
+	WHEEL_BACK = 2,
+	WHEEL_3rd_AXIS = 3,
+	WHEEL_4th_AXIS = 4,
+	WHEEL_5th_AXIS = 5,
+	WHEELS_END = 6,
+	CHASSIS_TRAILER = 7
+}

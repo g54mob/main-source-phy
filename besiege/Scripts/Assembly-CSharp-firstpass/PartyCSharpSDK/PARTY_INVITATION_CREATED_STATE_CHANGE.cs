@@ -1,0 +1,20 @@
+using System;
+using PartyCSharpSDK.Interop;
+
+namespace PartyCSharpSDK
+{
+	public class PARTY_INVITATION_CREATED_STATE_CHANGE : PARTY_STATE_CHANGE
+	{
+		public PARTY_NETWORK_HANDLE network { get; set; }
+
+		public PARTY_INVITATION_HANDLE invitation { get; set; }
+
+		internal PARTY_INVITATION_CREATED_STATE_CHANGE(PARTY_STATE_CHANGE_UNION stateChange, IntPtr StateChangeId)
+			: base(stateChange.stateChange.stateChangeType, StateChangeId)
+		{
+			PartyCSharpSDK.Interop.PARTY_INVITATION_CREATED_STATE_CHANGE invitationCreated = stateChange.invitationCreated;
+			network = new PARTY_NETWORK_HANDLE(invitationCreated.network);
+			invitation = new PARTY_INVITATION_HANDLE(invitationCreated.invitation);
+		}
+	}
+}

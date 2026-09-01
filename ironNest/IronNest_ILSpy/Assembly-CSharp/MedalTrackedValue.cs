@@ -1,0 +1,24 @@
+public enum MedalTrackedValue
+{
+	ShotsFired,
+	ShotsHit,
+	STARUsed,
+	Kills,
+	TargetKills,
+	EnemyKills,
+	AllyKills,
+	StarsKilled,
+	RequisitionPointsSpent,
+	ReconUsed,
+	ReconUsedAfterFirstShot,
+	AverageImpactDistanceFromNearestTarget,
+	MissionStartTime,
+	MissionCompleteTime,
+	MissionEndTime,
+	FirstShotTime,
+	LastTargetDestroyedTime,
+	CounterBatteryTimeRemaining,
+	LongestKillStreak,
+	MostKillsBySingleImpact,
+	BestThreeKillWindowSeconds
+}

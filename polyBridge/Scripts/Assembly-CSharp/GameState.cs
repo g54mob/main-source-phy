@@ -1,0 +1,12 @@
+public enum GameState
+{
+	INVALID = 0,
+	LOADING_LEVEL_IMMEDIATE = 1,
+	MAIN_MENU = 2,
+	BUILD = 3,
+	SANDBOX = 4,
+	SIM = 5,
+	DECOR = 6,
+	PRELOADING_LAYOUT_ASSETS = 7,
+	PHOTO = 8
+}

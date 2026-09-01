@@ -1,0 +1,25 @@
+public enum FileBrowserType
+{
+	LocalMachines = 0,
+	LocalLevels = 1,
+	Skins = 2,
+	SteamMachines = 3,
+	SteamLevels = 4,
+	PublishedSteamMachines = 5,
+	PublishedSteamLevels = 6,
+	PublishedSteamSkins = 7,
+	WeGameMachines = 8,
+	WeGameLevels = 9,
+	PublishedWeGameMachines = 10,
+	PublishedWeGameLevels = 11,
+	PublishedWeGameSkins = 12,
+	PublishedSteamMods = 13,
+	PublishedWeGameMods = 14,
+	PublishedModIOMods = 15,
+	ModIOMachines = 16,
+	ModIOLevels = 17,
+	ModIOSkins = 18,
+	PublishedModIOMachines = 19,
+	PublishedModIOLevels = 20,
+	PublishedModIOSkins = 21
+}

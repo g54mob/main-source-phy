@@ -1,0 +1,19 @@
+public enum ThemeAudioClip
+{
+	NONE = 0,
+	NEWDESERT = 1,
+	ROCKS = 2,
+	ALPINE = 3,
+	SKYSCRAPER = 4,
+	VIKING = 5,
+	TOXIC = 6,
+	TROPICS = 7,
+	THEWALL = 8,
+	TURNPIKE = 9,
+	GLACIER = 10,
+	SANTORINI = 11,
+	SANDBOX = 12,
+	CYBER = 13,
+	PYRAMIDS = 14,
+	DESK = 15
+}

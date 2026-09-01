@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Kamgam.SettingsGenerator</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\IronNest\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+      <HintPath>..\..\IronNest\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>..\..\IronNest\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="HTraceAO">
+      <HintPath>..\..\IronNest\HTraceAO.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>..\..\IronNest\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Cinemachine">
+      <HintPath>..\..\IronNest\Unity.Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InputSystem">
+      <HintPath>..\..\IronNest\Unity.InputSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="TND.Upscaling.Framework.Runtime.URP">
+      <HintPath>..\..\IronNest\TND.Upscaling.Framework.Runtime.URP.dll</HintPath>
+    </Reference>
+    <Reference Include="LocalizationsForSettings">
+      <HintPath>..\..\IronNest\LocalizationsForSettings.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>..\..\IronNest\UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="TND.Upscaling.Framework.Runtime.Core">
+      <HintPath>..\..\IronNest\TND.Upscaling.Framework.Runtime.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>..\..\IronNest\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\IronNest\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>..\..\IronNest\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>..\..\IronNest\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>..\..\IronNest\UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <ProjectReference Include="..\Kamgam.UGUIComponentsForSettings\Kamgam.UGUIComponentsForSettings.csproj" />
+  </ItemGroup>
+</Project>

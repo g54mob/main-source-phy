@@ -1,0 +1,14 @@
+public enum PointOfViewType
+{
+	BUILD = 0,
+	BUILD_CUSTOM = 1,
+	SIM_CENTER = 2,
+	SIM_CENTER_PITCHED_DOWN = 3,
+	SIM_RIGHT = 4,
+	SIM_LEFT = 5,
+	SIM_CUSTOM = 6,
+	DECOR_CENTER = 7,
+	DECOR_TOP = 8,
+	DECOR_CUSTOM = 9,
+	PHOTO = 10
+}

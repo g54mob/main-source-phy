@@ -1,0 +1,40 @@
+namespace PlayFab.MultiplayerModels
+{
+	public enum AzureVmSize
+	{
+		Standard_A1 = 0,
+		Standard_A2 = 1,
+		Standard_A3 = 2,
+		Standard_A4 = 3,
+		Standard_A1_v2 = 4,
+		Standard_A2_v2 = 5,
+		Standard_A4_v2 = 6,
+		Standard_A8_v2 = 7,
+		Standard_D1_v2 = 8,
+		Standard_D2_v2 = 9,
+		Standard_D3_v2 = 10,
+		Standard_D4_v2 = 11,
+		Standard_D5_v2 = 12,
+		Standard_D2_v3 = 13,
+		Standard_D4_v3 = 14,
+		Standard_D8_v3 = 15,
+		Standard_D16_v3 = 16,
+		Standard_F1 = 17,
+		Standard_F2 = 18,
+		Standard_F4 = 19,
+		Standard_F8 = 20,
+		Standard_F16 = 21,
+		Standard_F2s_v2 = 22,
+		Standard_F4s_v2 = 23,
+		Standard_F8s_v2 = 24,
+		Standard_F16s_v2 = 25,
+		Standard_D2as_v4 = 26,
+		Standard_D4as_v4 = 27,
+		Standard_D8as_v4 = 28,
+		Standard_D16as_v4 = 29,
+		Standard_D2a_v4 = 30,
+		Standard_D4a_v4 = 31,
+		Standard_D8a_v4 = 32,
+		Standard_D16a_v4 = 33
+	}
+}

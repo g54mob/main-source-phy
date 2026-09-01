@@ -1,0 +1,23 @@
+using System;
+using PartyCSharpSDK.Interop;
+
+namespace PartyCSharpSDK
+{
+	public class PARTY_NETWORK_DESTROYED_STATE_CHANGE : PARTY_STATE_CHANGE
+	{
+		public PARTY_DESTROYED_REASON reason { get; set; }
+
+		public uint errorDetail { get; set; }
+
+		public PARTY_NETWORK_HANDLE network { get; set; }
+
+		internal PARTY_NETWORK_DESTROYED_STATE_CHANGE(PARTY_STATE_CHANGE_UNION stateChange, IntPtr StateChangeId)
+			: base(stateChange.stateChange.stateChangeType, StateChangeId)
+		{
+			PartyCSharpSDK.Interop.PARTY_NETWORK_DESTROYED_STATE_CHANGE networkDestroyed = stateChange.networkDestroyed;
+			reason = networkDestroyed.reason;
+			errorDetail = networkDestroyed.errorDetail;
+			network = new PARTY_NETWORK_HANDLE(networkDestroyed.network);
+		}
+	}
+}

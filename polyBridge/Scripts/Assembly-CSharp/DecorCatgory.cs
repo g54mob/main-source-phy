@@ -1,0 +1,19 @@
+public enum DecorCatgory
+{
+	ROCKS = 0,
+	VIKING = 1,
+	TOXIC = 2,
+	SKYSCRAPER = 3,
+	NEW_DESERT = 4,
+	WALL = 5,
+	ALPINE = 6,
+	TROPICS = 7,
+	MISC = 8,
+	GLACIER = 9,
+	SANTORINI = 10,
+	SANDBOX = 11,
+	PYRAMIDS = 12,
+	CYBER = 13,
+	TURNPIKE = 14,
+	DESKTOP = 15
+}

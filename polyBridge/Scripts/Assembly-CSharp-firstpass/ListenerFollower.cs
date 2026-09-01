@@ -1,0 +1,75 @@
+using DarkTonic.MasterAudio;
+using UnityEngine;
+
+[AudioScriptOrder(-10)]
+public class ListenerFollower : MonoBehaviour
+{
+	private Transform _transToFollow;
+
+	private GameObject _goToFollow;
+
+	private Transform _trans;
+
+	private GameObject _go;
+
+	public GameObject GameObj
+	{
+		get
+		{
+			if (_go != null)
+			{
+				return _go;
+			}
+			_go = base.gameObject;
+			return _go;
+		}
+	}
+
+	public Transform Trans
+	{
+		get
+		{
+			if (_trans == null)
+			{
+				_trans = base.transform;
+			}
+			return _trans;
+		}
+	}
+
+	private void Awake()
+	{
+	}
+
+	public void StartFollowing(Transform transToFollow, float trigRadius)
+	{
+		_transToFollow = transToFollow;
+		_goToFollow = transToFollow.gameObject;
+	}
+
+	public void ManualUpdate()
+	{
+		BatchOcclusionRaycasts();
+		if (!(_transToFollow == null) && DTMonoHelper.IsActive(_goToFollow))
+		{
+			Trans.position = _transToFollow.position;
+		}
+	}
+
+	private void BatchOcclusionRaycasts()
+	{
+		if (!MasterAudio.Instance.useOcclusion)
+		{
+			return;
+		}
+		int num = 0;
+		while (num < MasterAudio.Instance.occlusionMaxRayCastsPerFrame && MasterAudio.HasQueuedOcclusionRays())
+		{
+			SoundGroupVariationUpdater soundGroupVariationUpdater = MasterAudio.OldestQueuedOcclusionRay();
+			if (!(soundGroupVariationUpdater == null) && soundGroupVariationUpdater.enabled && soundGroupVariationUpdater.RayCastForOcclusion())
+			{
+				num++;
+			}
+		}
+	}
+}

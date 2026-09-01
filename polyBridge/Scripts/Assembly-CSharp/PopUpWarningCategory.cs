@@ -1,0 +1,7 @@
+public enum PopUpWarningCategory
+{
+	NONE = 0,
+	SPLIT_JOINT_CREATION = 1,
+	UNSEEN_NOTIFICATIONS = 2,
+	OLDER_PHYSICS_ENGINE = 3
+}

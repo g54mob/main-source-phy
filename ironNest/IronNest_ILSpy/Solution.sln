@@ -1,0 +1,75 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapesRuntime", "ShapesRuntime\ShapesRuntime.csproj", "{8556DA42-5638-41EA-9C46-D083C8C7AAE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp\Assembly-CSharp.csproj", "{94692A2A-FCC1-4507-B865-6356E6DA5BAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kamgam.SettingsGenerator", "Kamgam.SettingsGenerator\Kamgam.SettingsGenerator.csproj", "{1378B56B-A27F-49D9-960A-E21CAB8131B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj", "{F7A8B491-A488-44F5-97EF-B9E98865102F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kamgam.UGUIComponentsForSettings", "Kamgam.UGUIComponentsForSettings\Kamgam.UGUIComponentsForSettings.csproj", "{39296048-F081-483C-B48A-8409601932BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lofelt.NiceVibrations.Demo", "Lofelt.NiceVibrations.Demo\Lofelt.NiceVibrations.Demo.csproj", "{49D43E84-49A7-4F28-91CD-B1033F9E8582}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapesSamples", "ShapesSamples\ShapesSamples.csproj", "{500D5EB8-9DB6-4B0B-8566-DA4E678E5792}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lofelt.NiceVibrations", "Lofelt.NiceVibrations\Lofelt.NiceVibrations.csproj", "{8D93230E-0A2D-423A-8AE5-195246D461D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kamgam.UIToolkitComponentsForSettings", "Kamgam.UIToolkitComponentsForSettings\Kamgam.UIToolkitComponentsForSettings.csproj", "{98C6EA31-2757-457B-8B92-FE58ED05DFDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kamgam.SettingsGeneratorExamples", "Kamgam.SettingsGeneratorExamples\Kamgam.SettingsGeneratorExamples.csproj", "{56C85E25-09DA-4A1A-8794-E54B3805B873}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AnyCPU = Debug|AnyCPU
+		Release|AnyCPU = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8556DA42-5638-41EA-9C46-D083C8C7AAE9}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{8556DA42-5638-41EA-9C46-D083C8C7AAE9}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{8556DA42-5638-41EA-9C46-D083C8C7AAE9}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{8556DA42-5638-41EA-9C46-D083C8C7AAE9}.Release|AnyCPU.Build.0 = Release|AnyCPU
+		{94692A2A-FCC1-4507-B865-6356E6DA5BAE}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{94692A2A-FCC1-4507-B865-6356E6DA5BAE}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{94692A2A-FCC1-4507-B865-6356E6DA5BAE}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{94692A2A-FCC1-4507-B865-6356E6DA5BAE}.Release|AnyCPU.Build.0 = Release|AnyCPU
+		{1378B56B-A27F-49D9-960A-E21CAB8131B9}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{1378B56B-A27F-49D9-960A-E21CAB8131B9}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{1378B56B-A27F-49D9-960A-E21CAB8131B9}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{1378B56B-A27F-49D9-960A-E21CAB8131B9}.Release|AnyCPU.Build.0 = Release|AnyCPU
+		{F7A8B491-A488-44F5-97EF-B9E98865102F}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{F7A8B491-A488-44F5-97EF-B9E98865102F}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{F7A8B491-A488-44F5-97EF-B9E98865102F}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{F7A8B491-A488-44F5-97EF-B9E98865102F}.Release|AnyCPU.Build.0 = Release|AnyCPU
+		{39296048-F081-483C-B48A-8409601932BA}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{39296048-F081-483C-B48A-8409601932BA}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{39296048-F081-483C-B48A-8409601932BA}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{39296048-F081-483C-B48A-8409601932BA}.Release|AnyCPU.Build.0 = Release|AnyCPU
+		{49D43E84-49A7-4F28-91CD-B1033F9E8582}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{49D43E84-49A7-4F28-91CD-B1033F9E8582}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{49D43E84-49A7-4F28-91CD-B1033F9E8582}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{49D43E84-49A7-4F28-91CD-B1033F9E8582}.Release|AnyCPU.Build.0 = Release|AnyCPU
+		{500D5EB8-9DB6-4B0B-8566-DA4E678E5792}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{500D5EB8-9DB6-4B0B-8566-DA4E678E5792}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{500D5EB8-9DB6-4B0B-8566-DA4E678E5792}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{500D5EB8-9DB6-4B0B-8566-DA4E678E5792}.Release|AnyCPU.Build.0 = Release|AnyCPU
+		{8D93230E-0A2D-423A-8AE5-195246D461D3}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{8D93230E-0A2D-423A-8AE5-195246D461D3}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{8D93230E-0A2D-423A-8AE5-195246D461D3}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{8D93230E-0A2D-423A-8AE5-195246D461D3}.Release|AnyCPU.Build.0 = Release|AnyCPU
+		{98C6EA31-2757-457B-8B92-FE58ED05DFDD}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{98C6EA31-2757-457B-8B92-FE58ED05DFDD}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{98C6EA31-2757-457B-8B92-FE58ED05DFDD}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{98C6EA31-2757-457B-8B92-FE58ED05DFDD}.Release|AnyCPU.Build.0 = Release|AnyCPU
+		{56C85E25-09DA-4A1A-8794-E54B3805B873}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{56C85E25-09DA-4A1A-8794-E54B3805B873}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{56C85E25-09DA-4A1A-8794-E54B3805B873}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{56C85E25-09DA-4A1A-8794-E54B3805B873}.Release|AnyCPU.Build.0 = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

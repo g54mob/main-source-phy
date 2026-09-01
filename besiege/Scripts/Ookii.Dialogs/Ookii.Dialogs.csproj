@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Ookii.Dialogs</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net35</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Ookii.Dialogs.ProgressDialog.bmp" />
+    <None Remove="Ookii.Dialogs.TaskDialog.bmp" />
+    <None Remove="Ookii.Dialogs.VistaFolderBrowserDialog.bmp" />
+    <None Remove="Ookii.Dialogs.InputDialog.bmp" />
+    <None Remove="Ookii.Dialogs.CredentialDialog.bmp" />
+    <EmbeddedResource Include="Ookii.Dialogs.ProgressDialog.bmp" LogicalName="Ookii.Dialogs.ProgressDialog.bmp" />
+    <EmbeddedResource Include="Ookii.Dialogs.TaskDialog.bmp" LogicalName="Ookii.Dialogs.TaskDialog.bmp" />
+    <EmbeddedResource Include="Ookii.Dialogs.VistaFolderBrowserDialog.bmp" LogicalName="Ookii.Dialogs.VistaFolderBrowserDialog.bmp" />
+    <EmbeddedResource Include="Ookii.Dialogs.InputDialog.bmp" LogicalName="Ookii.Dialogs.InputDialog.bmp" />
+    <EmbeddedResource Include="Ookii.Dialogs.CredentialDialog.bmp" LogicalName="Ookii.Dialogs.CredentialDialog.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Security" />
+  </ItemGroup>
+</Project>
