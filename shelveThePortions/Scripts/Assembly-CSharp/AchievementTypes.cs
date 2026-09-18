@@ -1,0 +1,28 @@
+public enum AchievementTypes
+{
+	None = 0,
+	Ach_Tutorial = 1,
+	Ach_Shelf_1 = 5,
+	Ach_Shelf_25 = 6,
+	Ach_Shelf_50 = 7,
+	Ach_Shelf_100 = 8,
+	Ach_Shelf_150 = 9,
+	Ach_Shelf_200 = 10,
+	Ach_Shelf_All = 11,
+	Ach_Puzzle_1 = 20,
+	Ach_Puzzle_5 = 21,
+	Ach_Puzzle_10 = 22,
+	Ach_Puzzle_All = 23,
+	Ach_Puzzle_Chess = 24,
+	Ach_Puzzle_Clock = 25,
+	Ach_Puzzle_Plant = 26,
+	Ach_Puzzle_Hero = 27,
+	Ach_Puzzle_Board = 28,
+	Ach_Puzzle_Spices = 29,
+	Ach_Cat_1 = 30,
+	Ach_Cat_All = 31,
+	Ach_Cat_Hint = 32,
+	Ach_Upgrade_1 = 35,
+	Ach_Upgrade_All = 36,
+	Ach_Finish_NoAbilities = 41
+}
